@@ -1,21 +1,21 @@
 /* Hero Section */
 .img-1 {
-  background: url(/resources/images/pexels-helena-lopes-696218.jpg);
+  background: url(../images/pexels-helena-lopes-696218.jpg);
   margin-top: 4.875rem;
   height: 100vh;
   z-index: -999;
 }
 
 .img-2 {
-  background: url(/resources/images/pexels-chris-f-1283219.jpg);
+  background: url(../images/pexels-chris-f-1283219.jpg);
 }
 
 .img-3 {
-  background: url(/resources/images/pexels-fauxels-3184183.jpg);
+  background: url(../images/pexels-fauxels-3184183.jpg);
 }
 
 .img-4 {
-  background: url(/resources/images/pexels-helena-lopes-696218.jpg);
+  background: url(../images/pexels-helena-lopes-696218.jpg);
 }
 
 .img-2,
