@@ -1,0 +1,45 @@
+.drink-img-1 {
+  background: url(/resources/images/pexels-camille-10549486.jpg);
+}
+
+.drink-img-2 {
+  background: url(/resources/images/pexels-ibrahim-unal-3738485.jpg);
+}
+
+.drink-img-3 {
+  background: url(/resources/images/pexels-chris-f-11017000.jpg);
+}
+
+.who-img-1 {
+  background-image: url(/resources/images/pexels-saksham-choudhary-2036656.jpg);
+}
+
+.who-img-2 {
+  background-image: url(/resources/images/pexels-allan-mas-5368995.jpg);
+}
+
+.who-img-3 {
+  background-image: url(/resources/images/pexels-cottonbro-5530170.jpg);
+}
+
+.who-img-4 {
+  background-image: url(/resources/images/pexels-miguel-á-padriñán-1591060.jpg);
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 225px;
+  aspect-ratio: 1 / 1;
+  box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.who-img-1,
+.who-img-2,
+.who-img-3,
+.who-img-4 {
+  aspect-ratio: 1 / 1.15;
+}

@@ -1,0 +1,187 @@
+html {
+  color: #f6e2d2;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1.5rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1.5rem);
+}
+
+.grid-template-columns-200 {
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+}
+
+.grid-template-columns-300 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+
+
+
+/* Why Section or Mission Statement */
+#your-drink {
+  margin-top: 2rem;
+  --gap: 4rem;
+}
+
+.test-container {
+  display: grid;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+#why {
+  background-color: #121212;
+  padding: 2rem;
+  display: grid;
+  justify-content: center;
+}
+
+#why .section-header {
+  text-align: center;
+}
+
+.why-container {
+  /* border: 1px solid #f6e2d2; */
+  --gap: 1.25rem;
+  max-width: 900px;
+}
+
+.section-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.section-subheader {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: #f7ba88;
+}
+
+.section-text {
+  font-size: 0.875rem;
+  --gap: 1rem;
+}
+
+/* What Section or the Product */
+#what {
+  background-color: #121212;
+  padding: 2rem;
+}
+
+.line {
+  height: 1px;
+}
+
+.small {
+  width: 100px;
+  background-color: #f6e2d2;
+  margin: 0 auto;
+}
+
+.middle {
+  width: 300px;
+  background-color: #f7ba88;
+  margin: 1rem auto;
+}
+
+.big {
+  width: 100%;
+  background-color: #f7ba88;
+  margin-top: 1rem;
+}
+
+.drink-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  --gap: 1rem;
+}
+
+.drink-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.75rem;
+  color: #f7ba88;
+}
+
+.drink-list {
+  list-style: none;
+  --gap: 0.5rem;
+}
+
+.hover-underline-animation {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+
+  display: inline-block;
+  position: relative;
+  transition: color 250ms ease-in-out;
+}
+
+.hover-underline-animation:hover {
+  color: #f7ba88;
+}
+
+.hover-underline-animation::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+
+  height: 1px;
+  width: 100%;
+  background-color: #f7ba88;
+
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 250ms ease-out;
+}
+
+.hover-underline-animation:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Who Section */
+#who {
+  background-color: #121212;
+  padding: 2rem;
+}
+
+.creater-container {
+  justify-content: center;
+  text-align: center;
+  --gap: 2.5rem;
+}
+
+.creater-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #f7ba88;
+}
+
+.creater-text {
+  font-size: .8rem;
+}

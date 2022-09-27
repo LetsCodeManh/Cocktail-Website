@@ -1,0 +1,142 @@
+.card {
+  perspective: 10rem;
+  aspect-ratio: 1 / 1;
+  margin: 1rem;
+  position: relative;
+}
+
+.card-side {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  transition: all 750ms ease-in-out;
+
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-side.back {
+  transform: rotateY(-180deg);
+  background-color: #121212;
+  border: 1px solid #f7ba88;
+}
+
+.recipe-name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #f7ba88;
+  text-align: center;
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  
+  font-size: 0.875rem;
+  --gap: .5rem;
+}
+
+/* Gin Picture */
+.card-side.front.gin-1 {
+  background-image: url(/resources/images/gin-basil-smash.jpg);
+}
+
+.card-side.front.gin-2 {
+  background-image: url(/resources/images/eastside.jpg);
+}
+
+.card-side.front.gin-3 {
+  background-image: url(/resources/images/floradora.webp);
+}
+
+.card-side.front.gin-4 {
+  background-image: url(/resources/images/1934-cosmopolitan.jpg);
+}
+
+.card-side.front.gin-5 {
+  background-image: url(/resources/images/white-lady.jpg);
+}
+
+/* Vodka Picture */
+.card-side.front.vodka-1 {
+  background-image: url(/resources/images/ivy-gimlet.jpg);
+}
+
+.card-side.front.vodka-2 {
+  background-image: url(/resources/images/kamikaze.jpg);
+}
+
+.card-side.front.vodka-3 {
+  background-image: url(/resources/images/caipiroska.jpg);
+}
+
+.card-side.front.vodka-4 {
+  background-image: url(/resources/images/moscow-mule.jpg);
+}
+
+.card-side.front.vodka-5 {
+  background-image: url(/resources/images/white-russian.jpg);
+}
+
+/* Whiskey Picture */
+.card-side.front.whiskey-1 {
+  background-image: url(/resources/images/whiskey-smash.jpg);
+}
+
+.card-side.front.whiskey-2 {
+  background-image: url(/resources/images/whiskey-sour.jpg);
+}
+
+.card-side.front.whiskey-3 {
+  background-image: url(/resources/images/manhattan.webp);
+}
+
+.card-side.front.whiskey-4 {
+  background-image: url(/resources/images/mamie-taylor.jpeg);
+}
+
+.card-side.front.whiskey-5 {
+  background-image: url(/resources/images/old-fashioned.jpg);
+}
+
+.card-side.front {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #f7ba88;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  margin: 0 auto;
+}
+
+.card:hover .card-side.front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+  transform: rotateY(0deg);
+}
+
+.go-up {
+  font-size: .8rem;
+  float: right;
+}
+
+.cocktails-recipe {
+  --gap: .5rem;
+}
