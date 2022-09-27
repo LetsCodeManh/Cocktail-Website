@@ -48,65 +48,65 @@
 
 /* Gin Picture */
 .card-side.front.gin-1 {
-  background-image: url(/resources/images/gin-basil-smash.jpg);
+  background-image: url(../images/gin-basil-smash.jpg);
 }
 
 .card-side.front.gin-2 {
-  background-image: url(/resources/images/eastside.jpg);
+  background-image: url(../images/eastside.jpg);
 }
 
 .card-side.front.gin-3 {
-  background-image: url(/resources/images/floradora.webp);
+  background-image: url(../images/floradora.webp);
 }
 
 .card-side.front.gin-4 {
-  background-image: url(/resources/images/1934-cosmopolitan.jpg);
+  background-image: url(../images/1934-cosmopolitan.jpg);
 }
 
 .card-side.front.gin-5 {
-  background-image: url(/resources/images/white-lady.jpg);
+  background-image: url(../images/white-lady.jpg);
 }
 
 /* Vodka Picture */
 .card-side.front.vodka-1 {
-  background-image: url(/resources/images/ivy-gimlet.jpg);
+  background-image: url(../images/ivy-gimlet.jpg);
 }
 
 .card-side.front.vodka-2 {
-  background-image: url(/resources/images/kamikaze.jpg);
+  background-image: url(../images/kamikaze.jpg);
 }
 
 .card-side.front.vodka-3 {
-  background-image: url(/resources/images/caipiroska.jpg);
+  background-image: url(../images/caipiroska.jpg);
 }
 
 .card-side.front.vodka-4 {
-  background-image: url(/resources/images/moscow-mule.jpg);
+  background-image: url(../images/moscow-mule.jpg);
 }
 
 .card-side.front.vodka-5 {
-  background-image: url(/resources/images/white-russian.jpg);
+  background-image: url(../images/white-russian.jpg);
 }
 
 /* Whiskey Picture */
 .card-side.front.whiskey-1 {
-  background-image: url(/resources/images/whiskey-smash.jpg);
+  background-image: url(../images/whiskey-smash.jpg);
 }
 
 .card-side.front.whiskey-2 {
-  background-image: url(/resources/images/whiskey-sour.jpg);
+  background-image: url(../images/whiskey-sour.jpg);
 }
 
 .card-side.front.whiskey-3 {
-  background-image: url(/resources/images/manhattan.webp);
+  background-image: url(../images/manhattan.webp);
 }
 
 .card-side.front.whiskey-4 {
-  background-image: url(/resources/images/mamie-taylor.jpeg);
+  background-image: url(../images/mamie-taylor.jpeg);
 }
 
 .card-side.front.whiskey-5 {
-  background-image: url(/resources/images/old-fashioned.jpg);
+  background-image: url(../images/old-fashioned.jpg);
 }
 
 .card-side.front {
